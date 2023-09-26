@@ -2,22 +2,22 @@
   --primary-color: #7e388a;
   --primary-hover: #5e2563;
   
- background: rgb(237,148,213);
- background: linear-gradient(0deg, rgba(237,148,213,1) 0%, rgba(255,255,255,1) 100%);
-   --text-color: #26022b;
+ --bg-color:background: rgb(237,148,213);background:linear-gradient(0deg, rgba(232,87,194,1)0%, rgba(237,148,213,1) 20%, rgba(255,255,255,1) 100%);
+ --text-color: #26022b;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* ======== DARK THEME ======== */
 
 body.dark-theme {
-  --bg-color: background: rgb(101,0,74);
-background: linear-gradient(0deg, rgba(101,0,74,1) 0%, rgba(0,0,0,1) 100%);
+  --bg-color: background: rgb(76,0,89);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(76,0,89,1)50%, rgba(255,255,255,1) 90%);
   --text-color: white;
 }
 
@@ -63,9 +63,10 @@ h1 {
   margin: 24px 0 14px;
 }
 
+
 header p {
   font-size: 16px;
-  font-family: 'Lora', serif;
+
   opacity: 0.8;
 }
 
